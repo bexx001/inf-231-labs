@@ -1,0 +1,245 @@
+body{
+	padding: 0;	
+	margin: 0;	
+	
+	background-size: 100%;
+}
+
+.section1{
+	background: url('../img/Body.svg');
+	background-size: 100%;
+	margin-bottom: 0;
+}
+
+.container{
+
+	width: 1110px;
+	margin: 0 auto;
+
+}
+
+.header{
+	
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: fixed;
+}
+
+-webkit-font-smoothing: antialiased;
+-webkit-overflow-scrolling: touch;
+
+hr {
+	display: block;
+	height: 1px;
+	bottom: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+
+}
+
+.navbar{
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+
+.navbar-inverse{
+	background: #2d2d2d;
+	border-color: #2d2d2ds;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #ff7878;
+}
+
+.navbar-inverse .navbar-brand{
+	color: #999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+a{
+
+	color: #f85c37;
+}
+
+a:hover, a:focus{
+	text-decoration: none;
+	color: 7b7b7b;
+	overflow: 0;
+}
+
+.section1{
+	padding-top: 50px;
+}
+
+
+
+.tab input, .tab-content { display: none; }
+   .tab {
+    font: 0.8rem/1.2 Arial, sans-serif; /* Параметры шрифта */
+    border: 1px solid #e9eaec; /* Параметры рамки */
+    border-radius: 3px; /* Скругляем уголки */
+    color: #fff; /* Цвет текста */
+    margin-bottom: 10px; /* Расстояние между пунктами */
+   }
+   .tab-title {
+    padding: 10px; /* Поля вокруг текста */
+    display: block; /* Блочный элемент */
+    text-transform: uppercase; /* Все буквы заглавные */
+    font-weight: bold; /* Жирное начертание */
+    cursor: pointer; /* Вид курсора */
+   }
+   .tab-title::after {
+    content: '+'; /* Выводим плюс */
+    float: right; /* Размещаем по правому краю */
+   }
+   .tab-content {
+    padding: 10px 20px; /* Поля вокруг текста */
+   }
+   .tab :checked + .tab-title {
+    background-color: #50a2de; /* Цвет фона */
+    border-radius: 3px 3px 0 0; /* Скругляем уголки */
+    color: #fff; /* Цвет текста */
+   }
+   .tab :checked + .tab-title::after {
+    content: '−'; /* Выводим минус */
+   }
+   .tab :checked ~ .tab-content {
+    display: block;
+}
+
+.contact{
+	text-decoration: none;
+	border: brown solid;
+	background-color: #fff;
+	color: #000;
+	padding: 5px;
+	width: 100px;
+	margin-left: 900px;
+	border-radius: 5px;
+}
+
+.contact: hover{
+	background-image: url(../img/contact.png);
+}
+
+.footer1{
+	background-color: #212121;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	text-decoration: none;
+}
+
+ul{
+
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+li{
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.ul{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.footer2{
+	text-align: center;
+	background: #000;
+	color: #fff;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+	padding-top: 15px;
+	padding-bottom: 0.5px;
+}
+
+.li{
+	color: #fff;
+	text-decoration: none;
+}
+
+.accordion{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.h1{
+	padding-top: 50px;
+
+}
+
+
+
+.block{
+	color: #fff;
+	display: flex;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+	width: 500px;
+	background-color: #000;
+	border-color: red;
+	margin: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+
+.block1{
+	display: flex;
+}
+
+.icon{
+	display: none;
+	margin-right: 0;
+}
+
+.responsive{
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    grid-template-rows: repeat(2, 100px);
+}
+
+
+
+
+.stick_r{
+    display: none;
+}
+
+.stick_i{
+	display: flex;
+	justify-content: right;
+	width: 50px;
+}
+
+.navbar-header{
+	display: flex;
+}
