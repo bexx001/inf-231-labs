@@ -1,0 +1,355 @@
+body{
+	padding: 0;	
+	margin: 0;	
+	
+	background-size: 100%;
+}
+
+.section1{
+	background: url('../img/Body.svg');
+	background-size: 100%;
+	margin-bottom: 0;
+}
+
+.container{
+
+	width: 1110px;
+	margin: 0 auto;
+
+}
+
+.header{
+	
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: fixed;
+}
+
+-webkit-font-smoothing: antialiased;
+-webkit-overflow-scrolling: touch;
+
+hr {
+	display: block;
+	height: 1px;
+	bottom: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+
+}
+
+.navbar{
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+
+.navbar-inverse{
+	background: #2d2d2d;
+	border-color: #2d2d2ds;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #ff7878;
+}
+
+.navbar-inverse .navbar-brand{
+	color: #999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+a{
+
+	color: #f85c37;
+}
+
+a:hover, a:focus{
+	text-decoration: none;
+	color: 7b7b7b;
+	overflow: 0;
+}
+
+.section1{
+	padding-top: 50px;
+}
+
+
+
+.tab input, .tab-content { display: none; }
+   .tab {
+    font: 0.8rem/1.2 Arial, sans-serif; /* Параметры шрифта */
+    border: 1px solid #e9eaec; /* Параметры рамки */
+    border-radius: 3px; /* Скругляем уголки */
+    color: #fff; /* Цвет текста */
+    margin-bottom: 10px; /* Расстояние между пунктами */
+   }
+   .tab-title {
+    padding: 10px; /* Поля вокруг текста */
+    display: block; /* Блочный элемент */
+    text-transform: uppercase; /* Все буквы заглавные */
+    font-weight: bold; /* Жирное начертание */
+    cursor: pointer; /* Вид курсора */
+   }
+   .tab-title::after {
+    content: '+'; /* Выводим плюс */
+    float: right; /* Размещаем по правому краю */
+   }
+   .tab-content {
+    padding: 10px 20px; /* Поля вокруг текста */
+   }
+   .tab :checked + .tab-title {
+    background-color: #50a2de; /* Цвет фона */
+    border-radius: 3px 3px 0 0; /* Скругляем уголки */
+    color: #fff; /* Цвет текста */
+   }
+   .tab :checked + .tab-title::after {
+    content: '−'; /* Выводим минус */
+   }
+   .tab :checked ~ .tab-content {
+    display: block;
+}
+
+
+
+
+.footer1{
+	background-color: #212121;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	text-decoration: none;
+}
+
+ul{
+
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+li{
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.ul{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.footer2{
+	text-align: center;
+	background: #000;
+	color: #fff;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+	padding-top: 15px;
+	padding-bottom: 0.5px;
+}
+
+.li{
+	color: #fff;
+	text-decoration: none;
+}
+
+.accordion{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.h1{
+	padding-top: 50px;
+
+}
+
+
+
+.block{
+	color: #fff;
+	display: flex;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+	width: 500px;
+	background-color: #000;
+	border-color: red;
+	margin: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+
+.block1{
+	display: flex;
+}
+
+
+.responsive{
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    grid-template-rows: repeat(2, 100px);
+}
+
+.contact{
+	width: 40px;
+	display: flex;
+}
+
+.navbar-header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.popup-bg {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+
+.popup-lg {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+
+.popup {
+    position: absolute;
+    background: #ffffff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border: 2px solid #FF7400;
+    padding-bottom: 0;
+}
+
+.popup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup form input {
+    margin-bottom: 35px;
+    height: 50px;
+    font-size: 20px;
+
+}
+
+
+
+.close-popup {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.close-popupa {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.no-scroll {
+    overflow-y: hidden;
+}
+
+.popup h1{
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.submit{
+	background: #FF7400;
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.open-popup{
+	text-decoration: none;
+	color: #fff;
+	
+	font-size: 20px;
+	background-color: #00FFFF;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.submit:hover{
+	background-color: #FF8C00;
+}
+
+.log{
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	margin-bottom: 30px;
+	padding-top: 0;
+}
+
+/* Кнопка выпадающего списка */
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Показать выпадающее меню при наведении курсора */
+.dropdown:hover .dropdown-content {display: block;}
+

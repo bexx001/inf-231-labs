@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<title>Registration page</title>
+	<link rel="stylesheet" href="js/main.js">
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">PRОGER</a>
+        
+        <a href="" class="open-popup">РЕГИСТРАЦИЯ</a>
+      </div>
+      <div class="popup-bg">
+        		<div class="popup">
+        			<h1>РЕГИСТРАЦИЯ</h1>
+            		<img class="close-popup" src="img/close.png" alt="">
+		            <form action="" method="post">
+		                <input type="text" required placeholder="Имя" name="firstName">
+		                <input type="text" required placeholder="Фамилия" name="lastName">
+		                <input type="tel" required placeholder="Телефон" name="phoneNumber">
+		                <input type="text" required placeholder="Логин" name="login">
+		                <input type="text" required placeholder="Пароль" name="password">
+		                <input class="submit open-popupa" value="ПОДТВЕРДИТЬ" type="submit" href="index.html">
+		                <a href="" class="log open-popupa">ВОЙТИ</a>
+		            </form>
+		        </div>
+		    </div>
+		    
+	</div>
+	</header>
+	<section class="section1">
+		<div class="container">
+			<h1 class="h1">Contact Us</h1>
+			<form id="contact_form" name="contact_form" method="post">
+			    <div class="mb-3">
+			        <label for="name_input">Name</label>
+			        <input type="text" required maxlength="50" class="form-control" id="name_input" name="name" placeholder="Name">
+			    </div>
+			    <div class="mb-3 row">
+			        <div class="col">
+			            <label for="email_addr">Email:</label>
+			            <input type="email" required maxlength="50" class="form-control" id="email_addr" name="email"
+			                placeholder="name@example.com">
+			        </div>
+			        <div class="col">
+			            <label for="phone_input">Phone</label>
+			            <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
+			                placeholder="Phone">
+			        </div>
+			    </div>
+			    <div class="mb-3">
+			        <label for="message">Message</label>
+			        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+			    </div>
+			    <div class="my-4">
+			        <div class="g-recaptcha" data-sitekey="6LchOyEUAAAAAPo9l0WmIgFkGu5D6Gyq-MjsIHS1"></div>
+			    </div>
+			    <button type="submit" class="btn btn-primary px-4">Send</button>
+			</form>
+		</div>
+
+		<div class="accordion"> 
+   <div class="tab">
+    <input type="checkbox" id="tab1" name="tab-group">
+    <label for="tab1" class="tab-title">МИССИЯ</label> 
+    <section class="tab-content"> 
+     <p>Миссия</p>
+     <ul>
+      Предвосхищать ожидания Клиента, предоставляя первоклассный сервис! Компания была образована в 2002 году в Алматы. В настоящее время сеть TECHNODOM включает 82 магазинов и 93 ПВЗ (пункты выдачи заказов). Общая торговая площадь составляет 94 320 кв. метров в 28-и городах республики. Компания, продолжающая свое активное развитие, открыта для всего нового и прогрессивного.
+     </ul>
+    </section> 
+   </div> 
+   <div class="tab">
+    <input type="checkbox" id="tab2" name="tab-group">
+    <label for="tab2" class="tab-title">2016</label> 
+    <p class="tab-content"> 
+     В 2016 году TECHNODOM открыл первый магазин в Кыргызстане, запустившись одновременно с интернет-магазином technodom.kg. На сегодня в столице Кыргызской Республики, в Бишкеке, работает 1 магазин.
+    </p> 
+   </div> 
+   <div class="tab">
+    <input type="checkbox" id="tab3" name="tab-group">
+    <label for="tab3" class="tab-title">ФИЛИАЛЫ</label>
+    <p class="tab-content">
+     Торговая сеть компании охватывает всю территорию Казахстана. Магазины TECHNODOM работают в городах: Астана, Алматы, Актау, Актобе, Атырау, Балхаш, Жезказган, Жанаозен, Караганда, Капчагай, Кокшетау, Костанай, Кызылорда, Кульсары, Павлодар, Петропавловск, Рудный, Семей, Сатпаев, Талдыкорган, Тараз, Талгар, Темиртау, Туркестан, Усть-Каменогорск, Уральск, Шымкент и Экибастуз.
+    </p>
+   </div>
+  </div>
+	</section>
+	<footer class="footer1">
+		<div class="container">
+			<div class="ul">
+				<ul>
+					<a href="#" class="li"><li>Home</li></a>
+					<a href="#" class="li"><li>About us</li></a>
+					<a href="#" class="li"><li>Contacts</li></a>
+				</ul>
+			</div>
+			
+		</div>
+	</footer>
+	<footer class="footer2">
+		<div class="container">
+			<p>2022 all rights “not” reserved</p>
+		</div>
+	</footer>
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<div class="popup-lg">
+        		<div class="popup">
+        			<h1>ВХОД</h1>
+            		<img class="close-popupa" src="img/close.png" alt="">
+		            <form action="login.html" method="post">
+		                <input type="text" required placeholder="Логин" name="login">
+		                <input type="text" required placeholder="Пароль" name="password">
+		                <input class="submit" value="ПОДТВЕРДИТЬ" type="submit" href="login.html">
+		            </form>
+		        </div>
+		    </div>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
