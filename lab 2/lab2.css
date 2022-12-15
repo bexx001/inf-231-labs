@@ -1,0 +1,110 @@
+          .text-red{
+                color:red;
+            }
+
+            .text-white{
+                color: white;
+            }
+
+            .text-green{
+                color: green;
+            }
+
+            .text-hex-red{
+                color: #ff0000;
+            }
+
+            .text-rgba-red{
+                color: rgba(255,0,0,.5);
+            }
+
+            .text-left{
+                text-align: left;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .bg-red{
+                background-color: red;
+            }
+            
+            .bg-yellow{
+                background-color: yellow;
+            }
+
+            .border{
+                border: 3px solid rgb(0,0,0);
+            }
+
+            .border-dashed{
+                border: 5px dashed black;
+            }
+
+            .margin{
+                margin: 10px 20px;
+            }
+
+            .margin-2{
+                margin: 10px 0px;
+            }
+
+            .margin-tag{
+                margin: 10px 0px 0px 0px;
+            }
+
+            .padding-20{
+                padding: 20px;
+            }
+
+            .padding{
+                padding: 0px;
+            }
+
+            .different-borders{
+                border-top: 3px dotted green;
+                border-bottom: 3px dashed darkred;
+            }
+
+            .rounded{
+                border-radius: 20%;
+            }
+
+            .rounded-2{
+                border-radius: 50%;
+            }
+
+            .rounded-3{
+                border-radius: 20px;
+            }
+
+            .circle{
+                height: 60px;
+                width: 60px;
+                background-color: red;
+                border-radius: 50%;
+                text-align: center;
+            }
+
+            .width-height{
+                margin-top: 5px;
+                width: 40px;
+                height: 50px;
+            }
+
+            .inline{
+                display: inline;
+            }
+
+            .inline-block{
+                display: inline-block;
+            }
+
+            .block{
+                display: block;
+            }
+
+            .underline{
+                text-decoration-line: underline;
+            }
